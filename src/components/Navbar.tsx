@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Transition } from '@headlessui/react';
 import { SunIcon, MoonIcon } from '@heroicons/react/24/outline';
 import { FaWhatsapp, FaBars, FaTimes } from 'react-icons/fa';
@@ -28,9 +28,6 @@ const Navbar = ({ isDarkMode, toggleDarkMode }: NavbarProps) => {
     { name: 'Contact', path: '/contact' },
   ];
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
