@@ -13,19 +13,19 @@ interface BannerSlide {
 const Banner = () => {
   const [slides] = useState<BannerSlide[]>([
     {
-      image: '/images/banner-first.jpg',
+      image: '/jaipurescort-main/images/banner-first.jpg',
       title: 'Welcome to Jaipur Escorts',
       description: 'Discover the best experiences in Jaipur',
       whatsappNumber: '918003041823'
     },
     {
-      image: '/images/banner-second.jpg',
+      image: '/jaipurescort-main/images/banner-second.jpg',
       title: 'Explore Jaipur',
       description: 'Find your perfect companion',
       whatsappNumber: '918003041823'
     },
     {
-      image: '/images/banner-third.jpg',
+      image: '/jaipurescort-main/images/banner-third.jpg',
       title: 'Premium Services',
       description: 'Quality and discretion guaranteed',
       whatsappNumber: '918003041823'

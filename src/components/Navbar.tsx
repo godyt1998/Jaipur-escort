@@ -32,8 +32,8 @@ const Navbar = ({ isDarkMode, toggleDarkMode }: NavbarProps) => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       isScrolled 
-        ? 'bg-white/90 dark:bg-dark/90 backdrop-blur-sm shadow-lg opacity-100' 
-        : 'bg-transparent opacity-0'
+        ? 'bg-white/90 dark:bg-dark/90 backdrop-blur-sm shadow-lg' 
+        : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
