@@ -50,6 +50,3 @@ export default tseslint.config({
 ```
 
     document.getElementById('age-verify').style.display = 'none';
-  }
-};
-</script>
