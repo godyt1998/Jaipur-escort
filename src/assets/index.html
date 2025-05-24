@@ -1,0 +1,26 @@
+<!-- Your other HTML code above -->
+
+<!-- Paste the popup code here, just before </body> -->
+<!-- Age Verification Popup Start -->
+<div id="age-verify-popup" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(255,192,203,0.95);display:flex;flex-direction:column;justify-content:center;align-items:center;z-index:9999;">
+  <div style="background:white;border-radius:12px;padding:32px 24px;box-shadow:0 2px 16px rgba(0,0,0,0.15);text-align:center;max-width:90vw;">
+    <h2 style="color:#d6336c;margin-bottom:20px;">Age Verification</h2>
+    <p style="font-size:18px;margin-bottom:20px;">You must be 18 years or older to enter this site.</p>
+    <button id="age-verify-yes" style="background:#d6336c;color:white;border:none;border-radius:6px;padding:12px 36px;font-size:18px;cursor:pointer;">I am 18+</button>
+  </div>
+</div>
+<script>
+  document.getElementById('age-verify-yes').onclick = function() {
+    document.getElementById('age-verify-popup').style.display = 'none';
+    localStorage.setItem('age-verified', 'yes');
+  };
+  window.onload = function() {
+    if(localStorage.getItem('age-verified') === 'yes') {
+      document.getElementById('age-verify-popup').style.display = 'none';
+    }
+  };
+</script>
+<!-- Age Verification Popup End -->
+
+</body>
+</html>
