@@ -1,27 +1,3 @@
-<!-- Age Verification Popup -->
-<div id="age-verify" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:rgba(0,0,0,0.8);display:flex;align-items:center;justify-content:center;">
-  <div style="background:white;padding:32px 24px;border-radius:8px;max-width:350px;text-align:center;">
-    <h2>Age Verification</h2>
-    <p>You must be 18 years or older to enter this site.</p>
-    <button onclick="verifyAge(true)" style="margin:8px;">I am 18 or older</button>
-    <button onclick="verifyAge(false)" style="margin:8px;">I am under 18</button>
-  </div>
-</div>
-<script>
-function verifyAge(isOldEnough) {
-  if(isOldEnough) {
-    document.getElementById('age-verify').style.display = 'none';
-    localStorage.setItem('ageVerified', 'yes');
-  } else {
-    window.location.href = 'https://www.google.com/';
-  }
-}
-window.onload = function() {
-  if(localStorage.getItem('ageVerified') === 'yes') {
-    document.getElementById('age-verify').style.display = 'none';
-  }
-};
-</script>
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
