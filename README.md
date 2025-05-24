@@ -45,8 +45,3 @@ export default tseslint.config({
     // Enable its recommended rules
     ...react.configs.recommended.rules,
     ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-
-    document.getElementById('age-verify').style.display = 'none';
