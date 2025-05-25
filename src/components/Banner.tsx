@@ -15,13 +15,13 @@ const Banner = () => {
     {
       image: '/images/banner-first.jpg',
       title: 'Welcome to Jaipur Escorts',
-      description: 'Discover the best experiences in Jaipur',
+      description: 'Discover the best experiences in Jaipur Escort',
       whatsappNumber: '918003041823'
     },
     {
       image: '/images/banner-second.jpg',
-      title: 'Explore Jaipur',
-      description: 'Find your perfect companion',
+      title: 'Explore Jaipur Escort',
+      description: 'Find your best ',
       whatsappNumber: '918003041823'
     },
     {
