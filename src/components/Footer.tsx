@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
         {/* Copyright - adjusted spacing */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Jaipur Escorts. All rights reserved.</p>
+          <p>&copy; {old 2015().2017()} Jaipur Escorts. All rights reserved.</p>
         </div>
       </div>
     </footer>
