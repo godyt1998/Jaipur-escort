@@ -26,6 +26,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }: NavbarProps) => {
     { name: 'About', path: '/about' },
     { name: 'Jaipur', path: '/jaipur' },
     { name: 'Contact', path: '/contact' },
+    { name: 'Russian', path: '/Russian' },
   ];
 
 

@@ -25,10 +25,10 @@ const About = () => {
           
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white text-center">
-              Welcome to jaipur escort service 
+              Welcome to jaipur escort  
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
-              Discover the finest experiences in Jaipur with PinkcityNagari. We pride ourselves on providing exceptional services with utmost discretion and professionalism with Indipendent Escort.
+              Discover the finest experiences in Jaipur Escort. We pride ourselves on providing exceptional services in Jaipur Esccort with utmost discretion and professionalism with Indipendent Escort.
             </p>
             <div className="space-y-4 flex flex-col items-center">
               <div className="flex flex-col items-center space-y-8 w-full max-w-md">
@@ -79,7 +79,7 @@ const About = () => {
               <Modal
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
-                title="About Jaipur Escorts"
+                title="About Jaipur Escort"
               >
                 <div className="prose dark:prose-invert max-w-none">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
